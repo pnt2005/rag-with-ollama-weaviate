@@ -1,0 +1,14 @@
+{
+    "type": "module",
+    "devDependencies": {
+      "@types/node": "20.11.5",
+      "typescript": "^5.4.5"
+    },
+    "scripts": {
+      "compile": "tsc",
+      "exec": "node build/index.js"
+    },
+    "dependencies": {
+      "weaviate-client": "^3.0.0-rc.1"
+    }
+  }
